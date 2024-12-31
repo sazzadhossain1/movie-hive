@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import bannerPhoto from "../../accets/bannerPhoto/bannerPhoto.webp";
 import { Link } from "react-router-dom";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
   const [isDownloadBtnVisible, setIsDownloadBtnVisible] = useState(false);
@@ -11,7 +12,8 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="home_parent_div">
+      <Banner></Banner>
       <h1>Welcome Movie Hive</h1>
       <h2>
         Pushpa 2 (2024) UNCUT 1080p HDRip x264 [Dual Audio][Hindi 2.0+Tamil 2.0]
@@ -32,7 +34,7 @@ const Home = () => {
       {/* Conditionally render the Download button */}
       {isDownloadBtnVisible && (
         <Link
-          to="https://www.hindimoviestv.com/movies/pushpa-2-the-rule-2024-hindi/"
+          to="https://drive.google.com/file/d/1LuYRHJZTyWMG7gql5ICRqsvodqTsBiGl/view?usp=sharing"
           target="_blank"
         >
           <button id="DOWNLOAD_btn" className="DOWNLOAD_btn">

@@ -1,3 +1,10 @@
+.home_parent_div {
+  background-color: #00001f;
+  color: white;
+}
+.home_parent_div h1 {
+  margin-top: 200px;
+}
 .bannerPhoto {
   max-width: 50%;
 }
