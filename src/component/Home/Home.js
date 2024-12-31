@@ -3,6 +3,7 @@ import "./Home.css";
 import bannerPhoto from "../../accets/bannerPhoto/bannerPhoto.webp";
 import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
+import FirstSection from "../FirstSection/FirstSection";
 
 const Home = () => {
   const [isDownloadBtnVisible, setIsDownloadBtnVisible] = useState(false);
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <div className="home_parent_div">
       <Banner></Banner>
+      <FirstSection></FirstSection>
       <h1>Welcome Movie Hive</h1>
       <h2>
         Pushpa 2 (2024) UNCUT 1080p HDRip x264 [Dual Audio][Hindi 2.0+Tamil 2.0]
