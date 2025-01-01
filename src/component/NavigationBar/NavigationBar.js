@@ -74,11 +74,16 @@ const NavigationBar = () => {
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">News & Events &nbsp;</Link>
                 </li>
-                <li className="nav-link" style={{ "--i": ".85s" }}>
+                {/* <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">Contact Us &nbsp;</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
+          </div>
+          <div className="contact_div">
+            <h3 className="contact">
+              <Link>Contact Us</Link>
+            </h3>
           </div>
 
           <div className="hamburger-menu-container">

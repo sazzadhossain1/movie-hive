@@ -10,20 +10,31 @@ const FirstSection = () => {
     {
       id: 1,
       img: pushpaCart,
-      title:
-        "Pushpa 2 (2024) UNCUT 1080p HDRip x264 [Dual Audio][Hindi 2.0+Tamil 2.0] -DMV",
+      title: "Pushpa 2 (2024) UNCUT 1080p ",
+      videoLink:
+        "https://drive.google.com/file/d/1LuYRHJZTyWMG7gql5ICRqsvodqTsBiGl/view?usp=sharing",
+
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },
     {
       id: 2,
       img: yourFaultCart,
-      title:
-        "Your Fault (2024) 720p AMZN-WEB x264 MSubs [Dual Audio][Hindi 5.1+English 5.1] -mkvC",
+      title: "Your Fault (2024) 720p ",
+      videoLink:
+        "https://drive.google.com/file/d/19BNvlXw0heokLe2e2_a5HakN-pYn64Ay/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },
     {
       id: 3,
       img: TheGreatestCart,
-      title:
-        "Your Fault (2024) 720p AMZN-WEB x264 MSubs [Dual Audio][Hindi 5.1+English 5.1] -mkvC",
+      title: "The Greatest of All Time (2024) 720p ",
+      videoLink:
+        "https://drive.google.com/file/d/1LuYRHJZTyWMG7gql5ICRqsvodqTsBiGl/view?usp=sharing",
+      // adsterraLink:
+      //   "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+      adsterraLink: "https://www.facebook.com/boostyourself543545",
     },
   ];
   return (
