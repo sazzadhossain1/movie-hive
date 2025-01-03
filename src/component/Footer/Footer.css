@@ -32,3 +32,19 @@
 
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 860px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 580px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 370px) {
+  .footer_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
