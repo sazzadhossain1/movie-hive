@@ -11,8 +11,8 @@
 }
 .firstSection_grid_div {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 65%;
+  grid-template-columns: repeat(4, 1fr);
+  width: 95%;
   gap: 50px;
   margin: auto;
   margin-top: 50px;

@@ -5,7 +5,7 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const MovieCart = ({ movie }) => {
-  console.log(movie);
+  // console.log(movie);
 
   const [isDownloadBtnVisible, setIsDownloadBtnVisible] = useState(false);
 

@@ -40,9 +40,10 @@ header {
 }
 
 .logo-container {
-  flex: 1;
+  flex: 0.4;
   display: flex;
   align-items: center;
+  /* background-color: #3183ac; */
 }
 .logo-container h3 {
   color: blueviolet;
@@ -58,6 +59,9 @@ header {
 .nav-btn {
   flex: 3;
   display: flex;
+  align-items: center;
+
+  /* background-color: red; */
 }
 
 .nav-links {
@@ -286,6 +290,9 @@ header {
 }
 
 @media screen and (max-width: 1345px) {
+  .logo-container {
+    flex: 0.7;
+  }
   .contact_div {
     flex: 0.5;
   }
@@ -452,10 +459,18 @@ header {
     opacity: 0;
     transform: translateY(15px);
   }
+  .contact_div {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 440px) {
   .contact_div {
     display: none;
+  }
+}
+@media screen and (max-width: 322px) {
+  .logo-container {
+    flex: 1;
   }
 }

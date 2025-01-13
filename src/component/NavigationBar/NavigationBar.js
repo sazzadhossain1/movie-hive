@@ -23,33 +23,30 @@ const NavigationBar = () => {
             <div className="nav-links">
               <ul>
                 <li className="nav-link" style={{ "--i": ".6s" }}>
-                  <Link href="#">Home</Link>
+                  <Link href="#">HOME</Link>
                 </li>
                 <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">
-                    About Us &nbsp;
+                    MOVIES &nbsp;
                     {/* <FontAwesomeIcon icon={faAngleDown} /> */}
                   </Link>
                   <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
-                        <Link href="#">Mission and Vision</Link>
+                        <Link href="#">ENGLISH</Link>
                       </li>
                       <li className="dropdown-link">
-                        <Link href="#">Team</Link>
+                        <Link href="#">HINDI</Link>
                       </li>
 
                       <li className="dropdown-link">
-                        <Link href="#">Factory</Link>
+                        <Link href="#">ANIMATION</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
-                <li className="nav-link" style={{ "--i": "1.1s" }}>
-                  <a href="#">
-                    Products &nbsp;
-                    {/* <FontAwesomeIcon icon={faAngleDown} /> */}
-                  </a>
+                {/* <li className="nav-link" style={{ "--i": "1.1s" }}>
+                  <Link to="#">Products &nbsp;</Link>
                   <div className="dropdown">
                     <ul>
                       <li className="dropdown-link">
@@ -70,9 +67,9 @@ const NavigationBar = () => {
                       </li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
                 <li className="nav-link" style={{ "--i": ".85s" }}>
-                  <Link href="#">News & Events &nbsp;</Link>
+                  <Link href="#">KIDS &nbsp;</Link>
                 </li>
                 {/* <li className="nav-link" style={{ "--i": ".85s" }}>
                   <Link href="#">Contact Us &nbsp;</Link>

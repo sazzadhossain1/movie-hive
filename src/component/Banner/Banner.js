@@ -1,26 +1,49 @@
 import React, { useState } from "react";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import bannerPhotoOne from "../../accets/bannerPhoto/bannerPhotoOne.jpg";
-import pushpaPhotoTwo from "../../accets/bannerPhoto/bannerPhotoTwo.webp";
-import pushpaPhotoTree from "../../accets/bannerPhoto/bannerPhotoThree.jpg";
+import pushpa2Banner from "../../accets/bannerPhoto/bannerPhotoOne.jpg";
 
+import bannerPhotoFive from "../../accets/bannerPhoto/bannerPhotoFive.jpg";
+
+import doPattiBanner from "../../accets/bannerPhoto/doPattiBanner.jpg";
+import mrAndMrsMahi from "../../accets/bannerPhoto/mrAndMrsMahiBanner.jpg";
+import vissotBanner from "../../accets/bannerPhoto/visfotBanner.jpeg";
+import fateBanner from "../../accets/bannerPhoto/fateBanner.jpg";
+import gameChangeBanner from "../../accets/bannerPhoto/gameChangeBanner.jpg";
+import matchFixingBanner from "../../accets/bannerPhoto/matchFixingBanner.jpg";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Banner = () => {
   // Photos array with images and associated text
   const photos = [
     {
-      src: bannerPhotoOne,
+      src: matchFixingBanner,
       text: "Photo 1 Description",
     },
     {
-      src: pushpaPhotoTwo,
-      text: "Photo 2 Description",
+      src: gameChangeBanner,
+      text: "Photo 1 Description",
     },
     {
-      src: pushpaPhotoTree,
-      text: "Photo 3 Description",
+      src: fateBanner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: vissotBanner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: mrAndMrsMahi,
+      text: "Photo 1 Description",
+    },
+
+    {
+      src: doPattiBanner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: bannerPhotoFive,
+      text: "Photo 2 Description",
     },
   ];
 
