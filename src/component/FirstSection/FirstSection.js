@@ -13,11 +13,43 @@ import mrAndMrsMahiCart from "../../accets/MovieCartPhoto/mrAndMrsMahiCart.jpg";
 import fateCart from "../../accets/MovieCartPhoto/fateCart.jpg";
 import gameChangeCart from "../../accets/MovieCartPhoto/gameChangeCart.jpg";
 import matchFixingCart from "../../accets/MovieCartPhoto/matchFixingCart.jpg";
+import macroCart from "../../accets/MovieCartPhoto/macroCart.jpg";
+import boolBolliyaThree from "../../accets/MovieCartPhoto/boolboliyaThreeCart.jpg";
 
+import TheCalendarKillerCart from "../../accets/MovieCartPhoto/TheCalendarKillerCart.jpg";
+import DenofThieves2Cart from "../../accets/MovieCartPhoto/DenofThieves2Cart.jpg";
+import azzadCart from "../../accets/MovieCartPhoto/azzadCart.jpg";
 const FirstSection = () => {
   const movieSrc = [
     {
-      id: 12,
+      id: 17,
+      img: azzadCart,
+      title: "Azaad (2025) Hindi 1080p",
+      videoLink:
+        "https://drive.google.com/file/d/1hORYIlWt1r53w7yR2kj-gDBcwfUJZadi/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 16,
+      img: DenofThieves2Cart,
+      title: "Den.of.Thieves.2.Pantera.2025.720p",
+      videoLink:
+        "https://drive.google.com/file/d/1XF9_P6JZBlyIvNFUZrAHacywe7HWQIrL/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 15,
+      img: TheCalendarKillerCart,
+      title: "The Calendar Killer (2025) 720p",
+      videoLink:
+        "https://drive.google.com/file/d/1YAFXD3W_74leK0XMGirgdPn3V6mFtpET/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 14,
       img: matchFixingCart,
       title: "Match Fixing (2025) Hindi 720p ",
       videoLink:
@@ -25,8 +57,9 @@ const FirstSection = () => {
       adsterraLink:
         "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },
+
     {
-      id: 11,
+      id: 13,
       img: gameChangeCart,
       title: "Game Changer (2025) Hindi Dubbed 1080p ",
       videoLink:
@@ -35,11 +68,29 @@ const FirstSection = () => {
         "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },
     {
-      id: 10,
+      id: 12,
       img: fateCart,
       title: "Fateh (2025) Hindi 1080p",
       videoLink:
         "https://drive.google.com/file/d/1dXad0wq_6CUxazA2jRR_a-r1TiNYt22q/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 11,
+      img: boolBolliyaThree,
+      title: "Bhool Bhulaiyaa 3 (2024) Hindi 1080p",
+      videoLink:
+        "https://drive.google.com/file/d/1a8uoMBYWn3VKNflHGwCs1b52fcg5YPsr/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 10,
+      img: macroCart,
+      title: "Marco (2024) Hindi Dubbed 1080p ",
+      videoLink:
+        "https://drive.google.com/file/d/1HdW_rTPSc5GkIqHQOcm1POwsk6ZQTWwB/view?usp=sharing",
       adsterraLink:
         "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },

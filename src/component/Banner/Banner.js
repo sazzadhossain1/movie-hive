@@ -11,11 +11,35 @@ import vissotBanner from "../../accets/bannerPhoto/visfotBanner.jpeg";
 import fateBanner from "../../accets/bannerPhoto/fateBanner.jpg";
 import gameChangeBanner from "../../accets/bannerPhoto/gameChangeBanner.jpg";
 import matchFixingBanner from "../../accets/bannerPhoto/matchFixingBanner.jpg";
+import macroBanner from "../../accets/bannerPhoto/macroBanner.png";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import bolboliyaThree from "../../accets/bannerPhoto/BhoolBhulaiyaThreeBanner.jpg";
+import TheCalendarKillerBanner from "../../accets/bannerPhoto/TheCalendarKillerBanner.jpg";
+import DenofThieves2Banner from "../../accets/bannerPhoto/DenofThieves2Banner.jpg";
+import azzadBanner from "../../accets/bannerPhoto/azzadBanner.png";
 const Banner = () => {
   // Photos array with images and associated text
   const photos = [
+    {
+      src: azzadBanner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: DenofThieves2Banner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: TheCalendarKillerBanner,
+      text: "Photo 1 Description",
+    },
+    {
+      src: bolboliyaThree,
+      text: "Photo 1 Description",
+    },
+    {
+      src: macroBanner,
+      text: "Photo 1 Description",
+    },
     {
       src: matchFixingBanner,
       text: "Photo 1 Description",
@@ -32,19 +56,15 @@ const Banner = () => {
       src: vissotBanner,
       text: "Photo 1 Description",
     },
-    {
-      src: mrAndMrsMahi,
-      text: "Photo 1 Description",
-    },
 
-    {
-      src: doPattiBanner,
-      text: "Photo 1 Description",
-    },
-    {
-      src: bannerPhotoFive,
-      text: "Photo 2 Description",
-    },
+    // {
+    //   src: doPattiBanner,
+    //   text: "Photo 1 Description",
+    // },
+    // {
+    //   src: bannerPhotoFive,
+    //   text: "Photo 2 Description",
+    // },
   ];
 
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
