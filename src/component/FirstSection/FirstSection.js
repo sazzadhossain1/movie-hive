@@ -19,8 +19,119 @@ import boolBolliyaThree from "../../accets/MovieCartPhoto/boolboliyaThreeCart.jp
 import TheCalendarKillerCart from "../../accets/MovieCartPhoto/TheCalendarKillerCart.jpg";
 import DenofThieves2Cart from "../../accets/MovieCartPhoto/DenofThieves2Cart.jpg";
 import azzadCart from "../../accets/MovieCartPhoto/azzadCart.jpg";
+import alarumCart from "../../accets/MovieCartPhoto/alarumCart.jpg";
+import blackInActionCart from "../../accets/MovieCartPhoto/blackInActionCart.jpg";
+import emergencyCart from "../../accets/MovieCartPhoto/emergencyCart.jpg";
+import henryCart from "../../accets/MovieCartPhoto/henryCart.jpg";
+import SniperTheLastStandCart from "../../accets/MovieCartPhoto/SniperTheLastStandCart.jpg";
+import wolfManCart from "../../accets/MovieCartPhoto/wolfManCart.jpg";
+import skyForceCart from "../../accets/MovieCartPhoto/skyForceCart.jpg";
+import dakkuMaharaajCart from "../../accets/MovieCartPhoto/dakkuMaharaajCart.jpg";
+import sweetBreamsCart from "../../accets/MovieCartPhoto/sweetBreamsCart.jpg";
+import starTrekCart from "../../accets/MovieCartPhoto/starTrekCart.jpg";
+import flightRiskCart from "../../accets/MovieCartPhoto/flightRiskCart.jpg";
+
 const FirstSection = () => {
   const movieSrc = [
+    {
+      id: 28,
+      img: flightRiskCart,
+      title: "Flight Risk 2025 720p",
+      videoLink:
+        "https://drive.google.com/file/d/1Ztk8_60b85duazupKu4RIMbKS8bgLWhN/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 27,
+      img: skyForceCart,
+      title: "Sky Force (2025) Hindi 1080p",
+      videoLink:
+        "https://drive.google.com/file/d/1IuFqzvJDdK9SAJadyHq4qxFdAC-jHY-O/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 26,
+      img: dakkuMaharaajCart,
+      title: "Daaku Maharaaj (2025) 1080p",
+      videoLink:
+        "https://drive.google.com/file/d/1cIgJPok2Yo7ab5KEdHoMKMW4vwWJF29X/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 25,
+      img: sweetBreamsCart,
+      title: "Sweet Dreams (2025) Hindi 720p",
+      videoLink:
+        "https://drive.google.com/file/d/1Yx_CmoPCdiuT8b28hc2FHWK7wiYBYqP-/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 24,
+      img: starTrekCart,
+      title: "Star.Trek.Section.31.2025.720p",
+      videoLink:
+        "https://drive.google.com/file/d/17MbKQNJiKXE8xIi71GtYWCTXN4akWEBx/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 23,
+      img: alarumCart,
+      title: "Alarum.2025.720p.",
+      videoLink:
+        "https://drive.google.com/file/d/1hZDxAlWb7RSTGbv44TSfe5glTBzipS_P/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 22,
+      img: blackInActionCart,
+      title: "Back in Action (2025) 720p",
+      videoLink:
+        "https://drive.google.com/file/d/1m0gPsJCeQ7hyFzRCYVPqX0BdgB2SKPiV/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 21,
+      img: emergencyCart,
+      title: "Emergency (2025) Hindi 1080p",
+      videoLink:
+        "https://drive.google.com/file/d/1jua5Gqb71EzoCCHF4OOrlgmW5lENE03w/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 20,
+      img: henryCart,
+      title: "Henry.Danger.The.Movie.2025.720p.",
+      videoLink:
+        "https://drive.google.com/file/d/1_2FmQ_g1cYi6T9c0NV97RoxIMEOczjbm/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 19,
+      img: SniperTheLastStandCart,
+      title: "Sniper.The.Last.Stand.2025.720p",
+      videoLink:
+        "https://drive.google.com/file/d/1wEJMZijzMTcNrIVuHUpdgv_IIbGtaNdM/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
+    {
+      id: 18,
+      img: wolfManCart,
+      title: "Wolf Man (2025) 720p",
+      videoLink:
+        "https://drive.google.com/file/d/14lR11e5PSIKM68xkZSABakWdraIUdwYK/view?usp=sharing",
+      adsterraLink:
+        "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
+    },
     {
       id: 17,
       img: azzadCart,
@@ -151,7 +262,7 @@ const FirstSection = () => {
       // adsterraLink: "https://www.facebook.com/boostyourself543545",
     },
     {
-      id: 1,
+      id: 3,
       img: pushpaCart,
       title: "Pushpa 2 (2024) UNCUT 1080p ",
       videoLink:
@@ -170,7 +281,7 @@ const FirstSection = () => {
         "https://www.profitablecpmrate.com/x5pu1na3s?key=02559a63980594c50058d85da01b12fa",
     },
     {
-      id: 3,
+      id: 1,
       img: TheGreatestCart,
       title: "The Greatest of All Time (2024) 720p ",
       videoLink:
@@ -195,7 +306,13 @@ const FirstSection = () => {
       <br />
       <br />
       <br />
-      <hr />
+      {/* Adsteera adds Start */}
+      <script
+        type="text/javascript"
+        src="//www.highperformanceformat.com/ed4625a3b1ccfbbe7791880203735f40/invoke.js"
+      ></script>
+      {/* Adsteera adds End */}
+
       <br />
       <br />
       <br />
